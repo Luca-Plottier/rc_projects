@@ -36,7 +36,7 @@ My success criteria were:
 
 ### Concept
 
-My initial inspiration came from 1930s seaplanes, specifically the Macchi M.33 racing plane associated with the main character in the movie *Porco Rosso*. <!-- TODO: double-check the M.33 date and its Porco Rosso connection --> As the design progressed, I also drew on popular entry-level planes such as the Cessna 172 Skyhawk and RC "trainer" airplanes.
+My initial inspiration came from seaplanes, such as the Macchi M.33 racing plane associated with the main character in the movie *Porco Rosso*. As the design progressed, I also drew on popular entry-level planes such as the Cessna 172 Skyhawk and RC "trainer" airplanes.
 
 ### Process
 
@@ -97,9 +97,10 @@ Setting up the transmitter was mostly plug and play. Setting up the receiver too
 [Describe finishing: covering, paint or tape, final checks, and any first test steps.]
 
 ![Build photo 1: add a caption](RC_Plane_V1/build-1.jpg)
-![Build photo 2: add a caption](RC_Plane_V1/build-2.jpg)
-![Build photo 3: add a caption](RC_Plane_V1/build-3.jpg)
 
+<a href="RC_Plane_V1/build-1.jpg"><img src="RC_Plane_V1/build-1.jpg" width="600" alt="Build image 1"></a>
+<a href="RC_Plane_V1/build-2.jpg"><img src="RC_Plane_V1/build-2.jpg" width="600" alt="Build image 2"></a>
+<a href="RC_Plane_V1/build-3.jpg"><img src="RC_Plane_V1/build-3.jpg" width="600" alt="Build image 3"></a>
 ---
 
 ## Budget
