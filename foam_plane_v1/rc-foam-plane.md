@@ -4,7 +4,7 @@
 
 I designed and built a 1 m wingspan electric foam plane from scratch. My target was a budget of \$150 and a plane a novice, first-time pilot could fly. It finished at about \$225 and survived several large crashes along the way, and it taught me a lot about budgeting, testing and building for durability.
 
-![Hero photo of the finished plane](images/hero.jpg)
+![Hero photo of the finished plane](RC_Plane_V1/hero.jpg)
 <!-- TODO: swap in your best photo, or link a flight video here -->
 
 **At a glance**
@@ -41,7 +41,7 @@ My initial inspiration came from 1930s seaplanes, specifically the Macchi M.33 r
 
 I started with sketches and reference designs. The sketches below show the shape I wanted and a possible wing cross-section, along with some of my thinking.
 
-![Initial planning and design sketches](images/design-sketches.jpg)
+![Initial planning and design sketches](RC_Plane_V1/design-sketches.jpg)
 
 ### Key decisions
 
@@ -95,9 +95,9 @@ Setting up the transmitter was mostly plug and play. Setting up the receiver too
 
 [Describe finishing: covering, paint or tape, final checks, and any first test steps.]
 
-![Build photo 1: add a caption](images/build-1.jpg)
-![Build photo 2: add a caption](images/build-2.jpg)
-![Build photo 3: add a caption](images/build-3.jpg)
+![Build photo 1: add a caption](RC_Plane_V1/build-1.jpg)
+![Build photo 2: add a caption](RC_Plane_V1/build-2.jpg)
+![Build photo 3: add a caption](RC_Plane_V1/build-3.jpg)
 
 ---
 
