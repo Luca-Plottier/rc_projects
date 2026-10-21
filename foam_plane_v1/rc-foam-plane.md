@@ -96,8 +96,6 @@ Setting up the transmitter was mostly plug and play. Setting up the receiver too
 
 [Describe finishing: covering, paint or tape, final checks, and any first test steps.]
 
-![Build photo 1: add a caption](RC_Plane_V1/build-1.jpg)
-
 <a href="RC_Plane_V1/build-1.jpg"><img src="RC_Plane_V1/build-1.jpg" width="600" alt="Build image 1"></a>
 <a href="RC_Plane_V1/build-2.jpg"><img src="RC_Plane_V1/build-2.jpg" width="600" alt="Build image 2"></a>
 <a href="RC_Plane_V1/build-3.jpg"><img src="RC_Plane_V1/build-3.jpg" width="600" alt="Build image 3"></a>
