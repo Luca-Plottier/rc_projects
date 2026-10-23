@@ -90,15 +90,18 @@ Although more complex than a standard wing profile, I indented to take advantage
 
 ### Making the hot wire cutter
 
-I needed a way to cut and shape the foam, so I made a hot wire foam cutter. I researched the materials, then designed and built it using parts I already had and nichrome wire I bought (\$15, which I hadn't planned for).
+I needed a way to cut and shape the foam, so I made a hot wire foam cutter. I researched the general designs, then built it using parts I already had and nichrome wire I bought (\$15, which I hadn't planned for). 
 
 [Add a photo of the cutter and a line on how it works.]
+<a href="RC_Plane_V1/build_1.jpg"><img src="RC_Plane_V1/build_1.jpg" width="600" alt="Hot wire cutter"></a>
+
+The cutter used my LiPo chargers DC output as its power source, heating the nichrome wire as a resistor enough to cut the form. DC voltage was set just high enough to heat the wire, so as to lower any risks as much as possible
 
 ### Cutting and shaping the wing
 
-I started with a rectangular 1200 × 600 × 50 mm XPS foam board and worked toward the shapes I wanted by cutting, shaping and gluing the foam until I was happy with it, redoing parts as needed. I designed the wing cross-section using a 3D-printed outline. [Explain how you used the outline with the hot wire cutter, then how you sanded the foam to its final shape.]
+I started with a rectangular 1200 × 600 × 50 mm XPS foam board and worked toward the shapes I wanted by cutting, shaping and gluing the foam until I was happy with it, redoing parts as needed. I designed the wing cross-section using a 3D-printed outline. 
 
-<a href="RC_Plane_V1/wing_1.jpg"><img src="RC_Plane_V1/wing_1.jpg" width="600" alt="Wing cutting"></a>
+
 
 **What I'd change:** [anything you'd do differently with the wing]
 
