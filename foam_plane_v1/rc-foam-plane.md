@@ -92,8 +92,7 @@ Although more complex than a standard wing profile, I indented to take advantage
 
 I needed a way to cut and shape the foam, so I made a hot wire foam cutter. I researched the general designs, then built it using parts I already had and nichrome wire I bought (\$15, which I hadn't planned for). 
 
-[Add a photo of the cutter and a line on how it works.]
-<a href="RC_Plane_V1/build_1.jpg"><img src="RC_Plane_V1/build_1.jpg" width="600" alt="Hot wire cutter"></a>
+<a href="RC_Plane_V1/build_1.jpg"><img src="RC_Plane_V1/build_1.jpg" width="500" alt="Hot wire cutter"></a>
 
 The cutter used my LiPo chargers DC output as its power source, heating the nichrome wire as a resistor enough to cut the form. DC voltage was set just high enough to heat the wire, so as to lower any risks as much as possible
 
