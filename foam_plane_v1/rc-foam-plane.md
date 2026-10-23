@@ -4,7 +4,7 @@
 
 I designed and built a 1 m wingspan electric foam plane from scratch. My target was a budget of \$150 and a plane a novice, first-time pilot could fly. It finished at about \$225 and survived several large crashes along the way, and it taught me a lot about budgeting, testing and building for durability.
 
-<a href="RC_Plane_V1/hero.jpg"><img src="RC_Plane_V1/hero.jpg" width="400" alt="Finished plane"></a>
+<a href="RC_Plane_V1/hero.jpg"><img src="RC_Plane_V1/hero.jpg" width="500" alt="Finished plane"></a>
 <!-- TODO: swap in your best photo, or link a flight video here -->
 
 **At a glance**
@@ -84,7 +84,7 @@ To design the wings, I also needed to determine the profile and shape I wanted. 
 **Design:** [Explain your wing profile choice and why. Mention the aluminium spar running through the centre and why you bent it in the middle.]
 During my research, I came across some novel model sized wing profiles, found [here](https://www.flitetest.com/articles/kfm-wings-a-basic-explanation), that had very interesting properties. Among them, I chose to start with the Kfm-3, a high lift, strong but complicated wing profile.
 
-<a href="RC_Plane_V1/kfm-family.jpg"><img src="RC_Plane_V1/kfm-family.jpg" width="600" alt="kfm-family wing profiles"></a>
+<a href="RC_Plane_V1/kfm-family.jpg"><img src="RC_Plane_V1/kfm-family.jpg" width="400" alt="kfm-family wing profiles"></a>
 
 Although more complex than a standard wing profile, I indented to take advantage of the thin trailing edge as the control surfaces, and was drawn to the novel and interesting design.
 
