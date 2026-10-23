@@ -50,11 +50,11 @@ Before building anything, I made three decisions that shaped the rest of the des
 
 ### Concept
 
-My initial inspiration came from seaplanes, such as the Macchi M.33 racing plane associated with the main character in the movie *Porco Rosso*. As the design progressed, I also drew on popular entry-level planes such as the Cessna 172 Skyhawk and RC "trainer" airplanes.
+My initial inspiration came from seaplanes from movies like *Porco Rosso*. As the design progressed, I also drew on popular entry-level planes such as the Cessna 172 Skyhawk and other RC "trainer" airplanes, as I wanted stability, simplicity and strength that came with the more basic shapes and design.
 
 ### Sketches and layout
 
-I started with sketches and reference designs. The sketches below show the shape I wanted and a possible wing cross-section, along with some of my thinking.
+I started with sketches and reference designs. The sketches below show an example shape I wanted and a possible wing cross-section I was researching, along with some of my thinking.
 
 <a href="RC_Plane_V1/design_sketches.jpg"><img src="RC_Plane_V1/design_sketches.jpg" width="600" alt="Design sketches"></a>
 
@@ -69,7 +69,7 @@ I started with sketches and reference designs. The sketches below show the shape
 - **Weight (ready to fly):** about 1.7 kg <!-- TODO: your results section says ~2 kg, pick one -->
 - **Wing loading / CG:** [add if you have it]
 
-[Add a dimensioned drawing or CAD screenshot here.]
+The dimensions of the design were determined by several factors. The most important was the motor and propeller size, which was used as a basis for the wingspan. My research dictated that propeller length was 15 to 30% the length of the wingspan, so with that starting point, I mocked up sizes and determined the most fitting to be 1 meter. From there, I found fuselage to sit at 0.75:1 compared to wingspan, based on Cessna 172 dimensions. Tail and rudder followed similar processes.
 
 ---
 
@@ -78,8 +78,15 @@ I started with sketches and reference designs. The sketches below show the shape
 <!-- Pattern for each component section: what it needed to do, how I designed it, how I built it, what went wrong or what I'd change. -->
 
 **What it needed to do:** [e.g. give enough lift at low speed for a novice pilot, stay strong through crashes]
+To design the wings, I also needed to determine the profile and shape I wanted. I required high lift and strength, as well as stability in flight. 
+
 
 **Design:** [Explain your wing profile choice and why. Mention the aluminium spar running through the centre and why you bent it in the middle.]
+During my research, I came across some novel model sized wing profiles, found [here](https://www.flitetest.com/articles/kfm-wings-a-basic-explanation), that had very interesting properties. Among them, I chose to start with the Kfm-3, a high lift, strong but complicated wing profile.
+
+<a href="RC_Plane_V1/kfm-family.jpg"><img src="RC_Plane_V1/kfm.family.jpg" width="600" alt="kfm-family wing profiles"></a>
+
+Although more complex than a standard wing profile, I indented to take advantage of the thin trailing edge as the control surfaces, and was drawn to the novel and interesting design.
 
 ### Making the hot wire cutter
 
