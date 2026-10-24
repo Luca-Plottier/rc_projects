@@ -69,7 +69,9 @@ I started with sketches and reference designs. The sketches below show an exampl
 - **Weight (ready to fly):** about 1.7 kg <!-- TODO: your results section says ~2 kg, pick one -->
 - **Wing loading / CG:** [add if you have it]
 
-The dimensions of the design were determined by several factors. The most important was the motor and propeller size, which was used as a basis for the wingspan. My research dictated that propeller length was 15 to 30% the length of the wingspan, so with that starting point, I mocked up sizes and determined the most fitting to be 1 meter. From there, I found fuselage to sit at 0.75:1 compared to wingspan, based on Cessna 172 dimensions. Tail and rudder followed similar processes. Overall, I decided that general shape was more important then exact dimensions for this prototype, so many parts ended up having slightly different dimentinos compared to the design to allow for the correct shapes. The biggest impact was in the tail section, seen below.
+The dimensions of the design were determined by several factors. The most important was the motor and propeller size, which was used as a basis for the wingspan. My research dictated that propeller length was 15 to 30% the length of the wingspan, so with that starting point, I mocked up sizes and determined the most fitting to be 1 meter, with a chord of [chord]. 
+From there, I found fuselage to sit at 0.75:1 compared to wingspan, based on Cessna 172 dimensions. Tail and rudder followed similar processes.
+Overall, I decided that general shape was more important then following exact dimensions for this prototype, so many parts ended up having slightly different dimentions compared to the design to allow for the correct shapes and curves. The biggest example of this was in the tail section, seen below.
 
 
 <a href="RC_Plane_V1/tail_section.jpg"><img src="RC_Plane_V1/tail_section.jpg" width="400" alt="Tail shape"></a>
@@ -80,12 +82,12 @@ The dimensions of the design were determined by several factors. The most import
 
 <!-- Pattern for each component section: what it needed to do, how I designed it, how I built it, what went wrong or what I'd change. -->
 
-**What it needed to do:** [e.g. give enough lift at low speed for a novice pilot, stay strong through crashes]
+**What it needed to do:**
 To design the wings, I also needed to determine the profile and shape I wanted. I required high lift and strength, as well as stability in flight. 
 
 
 **Design:** [Explain your wing profile choice and why. Mention the aluminium spar running through the centre and why you bent it in the middle.]
-During my research, I came across some novel model sized wing profiles, found [here](https://www.flitetest.com/articles/kfm-wings-a-basic-explanation), that had very interesting properties. Among them, I chose to start with the Kfm-3, a high lift, strong but complicated wing profile.
+During my research, I came across some novel model sized wing profiles named the Kfm family, found [here](https://www.flitetest.com/articles/kfm-wings-a-basic-explanation), that had very interesting properties. Among them, I chose to start with the Kfm-3, a high lift, strong but complicated wing profile.
 
 <a href="RC_Plane_V1/kfm-family.jpg"><img src="RC_Plane_V1/kfm-family.jpg" width="400" alt="kfm-family wing profiles"></a>
 
@@ -93,15 +95,21 @@ Although more complex than a standard wing profile, I indented to take advantage
 
 ### Making the hot wire cutter
 
-I needed a way to cut and shape the foam, so I made a hot wire foam cutter. I researched the general designs, then built it using parts I already had and nichrome wire I bought (\$15, which I hadn't planned for). 
+I needed a way to cut and shape the foam, so I decided to made a hot wire foam cutter as purchasing one would add to the expenses, and there were none available in my area. I researched the general designs, then built it using parts I already had and nichrome wire I bought (\$15, which I hadn't planned for). 
 
 <a href="RC_Plane_V1/build_1.jpg"><img src="RC_Plane_V1/build_1.jpg" width="500" alt="Hot wire cutter"></a>
 
-The tool used a LiPo charger DC output as its power source, heating the nichrome wire as a resistive element enough to cut the form. DC voltage was set just high enough to heat the wire, so as to lower any risks. 
+The tool used my SkyRC LiPo chargers DC output as its power source, heating the nichrome wire as a resistive element hot enough to cut the form. DC voltage was set just high enough to heat the wire, so as to lower any risks. 
 
 ### Cutting and shaping the wing
 
-I started with a rectangular 1200 × 600 × 50 mm XPS foam board and worked toward the shapes I wanted by cutting, shaping and gluing the foam until I was happy with it, redoing parts as needed. I designed the wing cross-section using a 3D-printed outline of the Kfm-3 profile, scaling the size according to my desired wing chord.... 
+I started with a rectangular 1200 × 600 × 50 mm XPS foam board and cut smaller sections off using the hot wire cutter and levels as guides. This was done as the hot wire cutter suffered from a lack of tension, meaning cuts had to be taken slowly as to avoid overstretching the nichrome and deforming the cut, and because keeping the cutter straight for long distances was not feasible. The main cuts were the two wing halves, tail and rear wing sections and main body.
+
+To cut the wing, I designed a wing cross-section using the Kfm-3 profile, scaling the size according to my desired wing chord and including a circular cut for spar insertion. <add figure>.
+However, due to only having access to PLA printer material, the template cross section would melt and catch the wire while cutting the wing, rendering the foam and template unusable. As a replacement, I cut and sanded a wooden template using the template as a guide, but found the think rear ledges broke off very easily. 
+Due to these issues and my worries the wing would lack strength at these ledges, I replaces the Kfm profile with a more typical wing profile.
+
+Another issue i encountered was i could only cut sections as wide as my hot wire cutter. This meant i had to cut the wing in sections, and later glue the peices together using a mix of glue and toothpicks for support. This resulted in slight deviations along the wing that required postprocessing by sanding.
 
 
 
