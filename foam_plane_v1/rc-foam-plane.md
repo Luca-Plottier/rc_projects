@@ -69,10 +69,11 @@ I started with sketches and reference designs. The sketches below show an exampl
 - **Weight (ready to fly):** about 1.7 kg <!-- TODO: your results section says ~2 kg, pick one -->
 - **Wing loading / CG:** [add if you have it]
 
-The dimensions of the design were determined by several factors. The most important was the motor and propeller size, which was used as a basis for the wingspan. My research dictated that propeller length was 15 to 30% the length of the wingspan, so with that starting point, I mocked up sizes and determined the most fitting to be 1 meter. From there, I found fuselage to sit at 0.75:1 compared to wingspan, based on Cessna 172 dimensions. Tail and rudder followed similar processes. Overall, I decided that general shape was more important then exact dimensions for this prototype, so many parts ended up having slightly different dimentinos compared to the design to allow for the correct shapes. The biggest impact was in the tail section.
+The dimensions of the design were determined by several factors. The most important was the motor and propeller size, which was used as a basis for the wingspan. My research dictated that propeller length was 15 to 30% the length of the wingspan, so with that starting point, I mocked up sizes and determined the most fitting to be 1 meter. From there, I found fuselage to sit at 0.75:1 compared to wingspan, based on Cessna 172 dimensions. Tail and rudder followed similar processes. Overall, I decided that general shape was more important then exact dimensions for this prototype, so many parts ended up having slightly different dimentinos compared to the design to allow for the correct shapes. The biggest impact was in the tail section, seen below.
 
 
-<a href="RC_Plane_V1/tail_section.jpg"><img src="RC_Plane_V1/tail_section.jpg" width="600" alt="Tail shape"></a>
+<a href="RC_Plane_V1/tail_section.jpg"><img src="RC_Plane_V1/tail_section.jpg" width="400" alt="Tail shape"></a>
+
 ---
 
 ## Wing profile and shape
