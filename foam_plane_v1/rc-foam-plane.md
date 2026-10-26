@@ -171,12 +171,15 @@ For a first attempt by a novice pilot, it did what I wanted. It never flew for l
 
 ## What I'd do differently
 
-- Make it heavier, so it copes better with wind
-- Add a flight controller
-- Build larger, stronger control surfaces
+- Make it heavier, so it copes better with wind and has a lowerwing loading.
+- Shrinking the sizing to reduce drag
+- Layer with plastic wrap for reduced drag
+- Add a flight controller for increased controllability and stability
+- Build larger, stronger control surfaces to allow higher manuverability
 - Build a smaller plane, and use a better-tensioned hot wire cutter
+- prepare more replacement parts for flight testing.
 
-**Biggest lessons:** testing is king, experience is a great teacher, and it's worth building prototypes that last.
+**Biggest lessons:** Testing was king, experience is a great teacher, and it's worth building prototypes that last.
 
 ---
 
