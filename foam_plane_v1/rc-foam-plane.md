@@ -4,7 +4,7 @@
 
 I designed and built a 1.2 m electric foam plane from scratch, aiming for a \$150 budget and a design a novice pilot could fly. It finished at about \$225 and taught me a lot about budgeting, testing and building for durability. It also took repeated hard landings and nose dives, and flew about ten short flights before a heavy crash.
 
-<a href="RC_Plane_V1/hero.jpg"><img src="RC_Plane_V1/hero.jpg" width="500" alt="Finished plane"></a>
+<a href="RC_Plane_V1/Hero2.jpg"><img src="RC_Plane_V1/Hero2.jpg" width="500" alt="Finished plane"></a>
 <!-- TODO: swap in your best photo, or link a flight video here -->
 
 **At a glance**
