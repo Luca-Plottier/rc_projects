@@ -7,11 +7,7 @@ I designed and built a 1.2 m electric foam plane from scratch, aiming for a \$15
 <a href="RC_Plane_V1/Hero2.jpg"><img src="RC_Plane_V1/Hero2.jpg" width="500" alt="Finished plane"></a>
 
 
-
-
 https://github.com/user-attachments/assets/e40760a3-c0c4-470f-ac7d-daadd55e808e
-
-
 
 
 
@@ -82,7 +78,7 @@ The cutter was weak on tension, so I made cuts slowly to avoid stretching the wi
 
 ## Control surfaces and servos
 
-The plane has four 9 g micro servos: one per aileron, one for the rudder, and one for the single-piece elevator. I sized the surfaces from reference designs. [Add a line on how you hinged them.]
+The plane has four 9 g micro servos: one per aileron, one for the rudder, and one for the single-piece elevator. I sized the surfaces from reference designs, cutting them out of the wing and reattaching them with cut plastic tabs as hinges, and servo wire mounts attached.
 
 **Problem: the linkages bent.** The wires connecting the servos to the surfaces were strong in tension but too thin to resist compression. Winding a second layer of wire around the first made them stiffer and gave better control. They were still weak, though, and combined with surfaces that were too small, this was the biggest reason for the plane's poor agility.
 
@@ -102,7 +98,7 @@ The motor kit's mount attaches to a wooden plate that slots into the front of th
 - **Battery:** Ovonic 3S 2200 mAh 35C, 11.1 V
 - **Radio:** FlySky FS-i6 with a FlySky receiver
 
-Soldering and testing the electronics took about 5 hours. Transmitter setup was mostly plug and play, but the receiver took more research because assigning channels and connecting everything was difficult. [Add the fix, so the next builder doesn't have to find it.]
+Soldering and testing the electronics took about 5 hours, including adding a switch between battery connector and ESC and resoldering motor and battery plugs. Transmitter setup was mostly plug and play, but the receiver took more research because assigning channels and connecting everything was difficult. I worked based off online videos as the receiver I used was very common.
 
 ---
 
@@ -157,6 +153,6 @@ For a first attempt by a novice pilot, it did what I wanted. It never flew for l
 
 ## Gallery
 
-<a href="RC_Plane_V1/gallery_1.jpg"><img src="RC_Plane_V1/gallery_1.jpg" width="500" alt="Add a caption"></a>
+<a href="RC_Plane_V1/hero.jpg"><img src="RC_Plane_V1/hero.jpg" width="500" alt="Another Hero Photo"></a>
 <a href="RC_Plane_V1/gallery_2.jpg"><img src="RC_Plane_V1/gallery_2.jpg" width="500" alt="Add a caption"></a>
 
