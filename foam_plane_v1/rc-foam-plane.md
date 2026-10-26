@@ -151,6 +151,6 @@ For a first attempt by a novice pilot, it did what I wanted. It never flew for l
 <a href="RC_Plane_V1/gallery_1.jpg"><img src="RC_Plane_V1/gallery_1.jpg" width="500" alt="Add a caption"></a>
 <a href="RC_Plane_V1/gallery_2.jpg"><img src="RC_Plane_V1/gallery_2.jpg" width="500" alt="Add a caption"></a>
 
-<a href="[https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/shorts/6i3lF9emXYw)"><img src="https://img.youtube.com/shorts/6i3lF9emXYw/maxresdefault.jpg" width="500" alt="Maiden flight video"></a>
+<a href="[https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/shorts/6i3lF9emXYw)"><img src="https://img.youtube.com/vi/6i3lF9emXYw/maxresdefault.jpg" width="500" alt="Maiden flight video"></a>
 <br><em>▶ Full flights video (1m30s) </em>
 https://www.youtube.com/shorts/6i3lF9emXYw
