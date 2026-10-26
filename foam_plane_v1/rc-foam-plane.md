@@ -38,6 +38,7 @@ My inspiration came from seaplanes in movies like *Porco Rosso*. I also drew on 
 The motor and propeller set the wingspan. My research suggested a propeller 15 to 30% of the wingspan, so I mocked up sizes and settled on about 1.2 m for an 8-inch prop. I based the fuselage on the Cessna 172's ratio to wingspan (about 0.75) and sized the tail the same way. I decided the overall shape mattered more than exact dimensions on a prototype, so some parts changed to get the right curves. The tail shows this best.
 
 <a href="RC_Plane_V1/tail_section.jpg"><img src="RC_Plane_V1/tail_section.jpg" width="400" alt="Tail shape"></a>
+<a href="RC_Plane_V1/tail_complete.jpg"><img src="RC_Plane_V1/tail_complete.jpg" width="400" alt="Tail shape"></a>
 
 - **Wings:** two 60 cm halves with a small gap, 18 cm chord, about 3° dihedral
 - **Fuselage:** 80 cm long, tapering from the midpoint
@@ -103,7 +104,7 @@ Soldering and testing the electronics took about 5 hours. Transmitter setup was 
 
 The wing sits on the balance point, about 30% of the way along the fuselage. I shuffled the battery around to test different orientations, and mostly kept it central or slightly ahead of the wing. Tape covered the holes and cuts, with the wiring running through the body. The landing gear is custom foam and wire, and I often reshaped it after hard landings.
 
-<a href="RC_Plane_V1/landing_gear.jpg"><img src="RC_Plane_V1/landing_gear.jpg" width="500" alt="Landing gear"></a>
+<a href="RC_Plane_V1/front_profile.jpg"><img src="RC_Plane_V1/front_profile.jpg" width="500" alt="Landing gear and front profile"></a>
 
 ---
 
