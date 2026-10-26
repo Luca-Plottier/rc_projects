@@ -7,7 +7,11 @@ I designed and built a 1.2 m electric foam plane from scratch, aiming for a \$15
 <a href="RC_Plane_V1/Hero2.jpg"><img src="RC_Plane_V1/Hero2.jpg" width="500" alt="Finished plane"></a>
 
 
-https://github.com/user-attachments/assets/0cb56bc2-64af-4403-8a58-67132e4b18ab
+
+
+https://github.com/user-attachments/assets/e40760a3-c0c4-470f-ac7d-daadd55e808e
+
+
 
 
 
