@@ -1,4 +1,6 @@
 
+https://github.com/user-attachments/assets/91f21e06-062e-4e25-9747-8d14692c261f
+
 
 https://github.com/user-attachments/assets/0e8df429-bddf-4f52-b04d-c87f17db55db
 
@@ -9,10 +11,10 @@ https://github.com/user-attachments/assets/0e8df429-bddf-4f52-b04d-c87f17db55db
 I designed and built a 1.2 m electric foam plane from scratch, aiming for a \$150 budget and a design a novice pilot could fly. It finished at about \$225 and taught me a lot about budgeting, testing and building for durability. It also took repeated hard landings and nose dives, and flew about ten short flights before a heavy crash.
 
 <a href="RC_Plane_V1/Hero2.jpg"><img src="RC_Plane_V1/Hero2.jpg" width="500" alt="Finished plane"></a>
-
+_The plane post flights and crashes._
 
 https://github.com/user-attachments/assets/e40760a3-c0c4-470f-ac7d-daadd55e808e
-
+_Video compilation of flights and crashes_
 
 
 **At a glance**
@@ -42,10 +44,12 @@ I made three early decisions that shaped everything else. The motor and battery 
 My inspiration came from seaplanes in movies like *Porco Rosso*. I also drew on entry-level planes such as the Cessna 172 Skyhawk and RC "trainers", because I wanted the stability, simplicity and strength of basic shapes.
 
 <a href="RC_Plane_V1/design_sketches.jpg"><img src="RC_Plane_V1/design_sketches.jpg" width="600" alt="Design sketches"></a>
+_This sketching was used for initial ideas and planning, but was never adopted formally. In future, I plan to complete proper notes._
 
 The motor and propeller set the wingspan. My research suggested a propeller 15 to 30% of the wingspan, so I mocked up sizes and settled on about 1.2 m for an 8-inch prop. I based the fuselage on the Cessna 172's ratio to wingspan (about 0.75) and sized the tail the same way. I decided the overall shape mattered more than exact dimensions on a prototype, so some parts changed to get the right curves. The tail shows this best.
 
 <a href="RC_Plane_V1/tail_complete.jpg"><img src="RC_Plane_V1/tail_complete.jpg" width="400" alt="Tail shape"></a>
+_A close up of the rear tail section, including control surfaces and servos._
 
 - **Wings:** two 60 cm halves with a small gap, 18 cm chord, about 3° dihedral
 - **Fuselage:** 80 cm long, tapering from the midpoint
@@ -62,6 +66,7 @@ The motor and propeller set the wingspan. My research suggested a propeller 15 t
 I wanted high lift, strength and stability. I came across the KFm wing family on [Flite Test](https://www.flitetest.com/articles/kfm-wings-a-basic-explanation) and started with the KFm-3, a high-lift profile. I liked its thin trailing edge, which could double as the control surfaces.
 
 <a href="RC_Plane_V1/kfm-family.jpg"><img src="RC_Plane_V1/kfm-family.jpg" width="400" alt="KFm wing profiles"></a>
+_Kfm family depictions from flighttest website._
 
 **Problem: the profile didn't survive the build.** My 3D-printed PLA template melted and caught the hot wire, ruining both the foam and the template. A sanded wooden template worked, but the thin rear ledges broke off easily, and I worried the wing would be weak there. I switched to a conventional semi-symmetric profile.
 
@@ -73,6 +78,7 @@ I wanted high lift, strength and stability. I came across the KFm wing family on
 Buying a cutter would have added to the cost, and none were available locally, so I built one from parts I already had plus nichrome wire (\$15, which I hadn't planned for). It runs from the DC output of my SkyRC LiPo charger. I set the voltage just high enough to heat the wire, to keep risk low.
 
 <a href="RC_Plane_V1/build_1.jpg"><img src="RC_Plane_V1/build_1.jpg" width="500" alt="Hot wire cutter"></a>
+_An image of the custom hot wire cutter used to cut and shape foam._
 
 The cutter was weak on tension, so I made cuts slowly to avoid stretching the wire and bending the cut, and it was hard to keep straight over long distances. A better-tensioned cutter is the first thing I'd improve.
 
@@ -87,7 +93,9 @@ The plane has four 9 g micro servos: one per aileron, one for the rudder, and on
 **Problem: the linkages bent.** The wires connecting the servos to the surfaces were strong in tension but too thin to resist compression. Winding a second layer of wire around the first made them stiffer and gave better control. They were still weak, though, and combined with surfaces that were too small, this was the biggest reason for the plane's poor agility.
 
 <a href="RC_Plane_V1/wing_servo.jpg"><img src="RC_Plane_V1/wing_servo.jpg" width="350" alt="Control surfaces and servos of wing"></a>
+_A close up of the wing servo mounting and control surface, missing linkage._
 <a href="RC_Plane_V1/tail_servos.jpg"><img src="RC_Plane_V1/tail_servos.jpg" width="400" alt="Control surfaces and servos of tail"></a>
+_A close up of the tail servo mountings and control surfaces, including rewound wire for added strength._
 
 ---
 
@@ -96,6 +104,7 @@ The plane has four 9 g micro servos: one per aileron, one for the rudder, and on
 The motor kit's mount attaches to a wooden plate that slots into the front of the fuselage. Toothpicks slid between the wood and the foam act as friction holds, so the mount stays secure but can be removed.
 
 <a href="RC_Plane_V1/motor_mount.jpg"><img src="RC_Plane_V1/motor_mount.jpg" width="500" alt="Motor mount"></a>
+_The custom removable motor mount used to hold the motor in place during flight. Not depicted is the wooden toothpicks used to lock it in place._
 
 - **Motor:** 1400 kV, 10-turn, with an 8045 propeller
 - **ESC:** 40 A
@@ -113,6 +122,7 @@ Soldering and testing the electronics took about 5 hours, including adding a swi
 The wing sits on the balance point, about 30% of the way along the fuselage. I shuffled the battery around to test different orientations, and mostly kept it central or slightly ahead of the wing. Tape covered the holes and cuts, with the wiring running through the body. The landing gear is custom foam and wire, and I often reshaped it after hard landings.
 
 <a href="RC_Plane_V1/front_profile.jpg"><img src="RC_Plane_V1/front_profile.jpg" width="500" alt="Landing gear and front profile"></a>
+_An image of the front of the plane, showing landing gear and motor. This is post crashing, with propeller broken and wings detached._
 
 ---
 
@@ -141,6 +151,7 @@ The plane flew about ten short flights in sunny to overcast conditions with ligh
 For a first attempt by a novice pilot, it did what I wanted. It never flew for long or gained much altitude, and controlling it well was beyond my ability at the time. It also had no flight controller, which would have helped with stability.
 
 <a href="https://www.youtube.com/watch?v=6i3lF9emXYw">Full flights video</a>
+_A video of the full flights compilation, an extention of the first video._
 
 ---
 
@@ -158,6 +169,14 @@ For a first attempt by a novice pilot, it did what I wanted. It never flew for l
 ## Gallery
 
 <a href="RC_Plane_V1/hero.jpg"><img src="RC_Plane_V1/hero.jpg" width="500" alt="Another Hero Photo"></a>
+_Pre flight photo, wings not attached perminantly._
 <a href="RC_Plane_V1/build_3.jpg"><img src="RC_Plane_V1/build_3.jpg" width="500" alt="Body during development"></a>
+_An image of the body during creation, before wing and tail sections were completed._
+
+https://github.com/user-attachments/assets/faee4666-af9f-442c-97ba-42f1e0b636d4
+_Video of motor and servo testing._
+
+
+
 
 
