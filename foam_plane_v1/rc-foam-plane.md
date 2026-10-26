@@ -131,7 +131,8 @@ The plane flew about ten short flights in sunny to overcast conditions with ligh
 
 For a first attempt by a novice pilot, it did what I wanted. It never flew for long or gained much altitude, and controlling it well was beyond my ability at the time. It also had no flight controller, which would have helped with stability.
 
-[Add your flight video here.]
+<a href="https://www.youtube.com/shorts/6i3lF9emXYw"><img src="https://img.youtube.com/vi/6i3lF9emXYw/maxresdefault.jpg" width="500" alt="Full flights video"></a>
+<br><em>▶ Full flights (1 min 30 s)</em>
 
 ---
 
@@ -151,5 +152,3 @@ For a first attempt by a novice pilot, it did what I wanted. It never flew for l
 <a href="RC_Plane_V1/gallery_1.jpg"><img src="RC_Plane_V1/gallery_1.jpg" width="500" alt="Add a caption"></a>
 <a href="RC_Plane_V1/gallery_2.jpg"><img src="RC_Plane_V1/gallery_2.jpg" width="500" alt="Add a caption"></a>
 
-<a href="https://www.youtube.com/shorts/6i3lF9emXYw"><img src="https://img.youtube.com/vi/6i3lF9emXYw/maxresdefault.jpg" width="500" alt="Full Flight video"></a>
-<br><em>▶ Full flights video (1m30s) </em>
