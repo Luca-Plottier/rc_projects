@@ -27,9 +27,9 @@ A 1.2 m wingspan electric foam plane, designed and built from scratch for a firs
   <a href="RC_Car.md"><img src="RC_Car_V1/hero.jpg" width="500" alt="RC car"></a>
 </p>
 
-[One or two sentences: what the car is, what you designed or modified, and the headline result.]
 
-**Skills shown:** [list 3 to 5 skills]
+
+**Skills shown:**
 
 **[Read the full write-up →](RC_Car.md)**
 
@@ -41,5 +41,5 @@ Each write-up follows the same structure: why I built it, the design and key dec
 
 ## Contact
 
-- **Email:** [your email]
-- **LinkedIn:** [your link]
+- **Email:** LucaPlottier@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/lucaplottier/
