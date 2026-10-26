@@ -78,7 +78,8 @@ The plane has four 9 g micro servos: one per aileron, one for the rudder, and on
 
 **Problem: the linkages bent.** The wires connecting the servos to the surfaces were strong in tension but too thin to resist compression. Winding a second layer of wire around the first made them stiffer and gave better control. They were still weak, though, and combined with surfaces that were too small, this was the biggest reason for the plane's poor agility.
 
-<a href="RC_Plane_V1/servo_mount.jpg"><img src="RC_Plane_V1/servo_mount.jpg" width="500" alt="Control surfaces and servos"></a>
+<a href="RC_Plane_V1/elevator_servo.jpg"><img src="RC_Plane_V1/elevator_servo.jpg" width="500" alt="Control surfaces and servos"></a>
+<a href="RC_Plane_V1/elevator_servo.jpg"><img src="RC_Plane_V1/elevator_servo.jpg" width="500" alt="Control surfaces and servos"></a>
 
 ---
 
