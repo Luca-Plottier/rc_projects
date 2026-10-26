@@ -1,9 +1,3 @@
-
-https://github.com/user-attachments/assets/91f21e06-062e-4e25-9747-8d14692c261f
-
-
-https://github.com/user-attachments/assets/0e8df429-bddf-4f52-b04d-c87f17db55db
-
 # Building an RC Foam Plane from Scratch
 
 *A 1.2 m wingspan electric foam plane, designed and built for a first-time pilot.*
