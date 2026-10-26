@@ -154,5 +154,5 @@ For a first attempt by a novice pilot, it did what I wanted. It never flew for l
 ## Gallery
 
 <a href="RC_Plane_V1/hero.jpg"><img src="RC_Plane_V1/hero.jpg" width="500" alt="Another Hero Photo"></a>
-<a href="RC_Plane_V1/gallery_2.jpg"><img src="RC_Plane_V1/gallery_2.jpg" width="500" alt="Add a caption"></a>
+<a href="RC_Plane_V1/build_3.jpg"><img src="RC_Plane_V1/build_3.jpg" width="500" alt="Body during development"></a>
 
