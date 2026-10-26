@@ -1,256 +1,154 @@
 # Building an RC Foam Plane from Scratch
 
-*A 1 m wingspan electric foam plane, designed and built for a first-time pilot.*
+*A 1.2 m wingspan electric foam plane, designed and built for a first-time pilot.*
 
-I designed and built a 1 m wingspan electric foam plane from scratch. My target was a budget of \$150 and a plane a novice, first-time pilot could fly. It finished at about \$225 and survived several large crashes along the way, and it taught me a lot about budgeting, testing and building for durability.
+I designed and built a 1.2 m electric foam plane from scratch, aiming for a \$150 budget and a design a novice pilot could fly. It finished at about \$225 and taught me a lot about budgeting, testing and building for durability. It also took repeated hard landings and nose dives, and flew about ten short flights before a heavy crash.
 
 <a href="RC_Plane_V1/hero.jpg"><img src="RC_Plane_V1/hero.jpg" width="500" alt="Finished plane"></a>
 <!-- TODO: swap in your best photo, or link a flight video here -->
 
 **At a glance**
 
-- **Type:** Electric RC plane, 1.0 m wingspan
-- **Timeline:** 6 months, built in my free time
-- **Time spent:** about 67 hours before finishing and testing: 15 planning, 40 structure, 5 making tools, 5 electronics, 2 radio setup <!-- TODO: add finishing hours -->
+- **Type:** Electric RC plane, about 1.2 m wingspan, 760 g ready to fly
+- **Timeline:** 6 months in my free time, roughly 70 hours of work (a rough estimate, I didn't keep a log)
 - **Budget:** \$150 target, about \$225 actual
-- **Headline result:** A sturdy design that survived several large crashes
-- **Skills:** Sanding and sculpting, CAD, soldering, systems integration
+- **Result:** A durable plane that took off consistently and survived repeated hard landings
+- **Skills:** CAD, hot wire cutting, sanding and sculpting, soldering, systems integration
 
 ---
 
 ## Why I built it
 
-I have a passion for radio controlled (RC) anything. I had owned an RC truck, so I set out to build a different kind of vehicle and landed on a fixed-wing aircraft.
+I have a passion for radio controlled (RC) anything. After owning an RC truck, I wanted a different kind of vehicle and landed on a fixed-wing plane. The brief was simple: build a working plane around my own airframe and bought electronics, keep the cost low, make it survive crashes, and fly it.
 
-The constraints were simple. I had to build a working RC plane around my own airframe and bought electronics, while keeping the budget low.
+I made three early decisions that shaped everything else. The motor and battery were the hardest parts to change, so I designed the airframe around them.
 
-My success criteria were:
-
-- A successful maiden flight, followed by more flights for testing and improvements
-- A plane that could withstand crashes
-- A plane that was easy to fly
+- **Motor:** I weighed winding my own, buying a kit and buying parts individually. A kit that included the speed controller, propeller and mount saved time and avoided compatibility problems, so I bought it.
+- **Battery:** My existing battery was too heavy for any design I was willing to build. I bought two high-capacity 3S RC plane batteries for \$45.
+- **Material:** A wooden frame wrapped in film was an interesting option, but foam was stronger, cheaper and faster to prototype.
 
 ---
 
-## Choosing the parts
+## Design and dimensions
 
-Before building anything, I made three decisions that shaped the rest of the design. The motor and battery were the hardest parts to change later, so the airframe was designed around them.
-
-**Motor.** I considered winding a custom electric motor, buying a motor kit, and buying the motor and other parts individually. At the prices I found online, a kit that included the speed controller, propeller and motor mount made the most sense, especially compared with the time a custom motor or finding compatible parts would take. I bought the kit.
-
-**Battery.** I already owned a large RC battery, but it was not intended for any design I was willing to build. I found two 3S, high-capacity RC plane batteries for \$45 and bought those instead.
-
-**Airframe material.** I compared a wooden frame wrapped in polyester film or paper with foam. The wooden option is interesting and flexible, but foam was stronger, cheaper and faster to prototype, which suited this project better. I went with foam.
-
----
-
-## Overall design and dimensions
-
-<!-- This section covers the big picture: concept, size and layout. Details of each part go in the sections below, so don't repeat them here. -->
-
-### Concept
-
-My initial inspiration came from seaplanes from movies like *Porco Rosso*. As the design progressed, I also drew on popular entry-level planes such as the Cessna 172 Skyhawk and other RC "trainer" airplanes, as I wanted stability, simplicity and strength that came with the more basic shapes and design.
-
-### Sketches and layout
-
-I started with sketches and reference designs. The sketches below show an example shape I wanted and a possible wing cross-section I was researching, along with some of my thinking.
+My inspiration came from seaplanes in movies like *Porco Rosso*. I also drew on entry-level planes such as the Cessna 172 Skyhawk and RC "trainers", because I wanted the stability, simplicity and strength of basic shapes.
 
 <a href="RC_Plane_V1/design_sketches.jpg"><img src="RC_Plane_V1/design_sketches.jpg" width="600" alt="Design sketches"></a>
 
-### Dimensions
-
-[Explain how you chose the size. For example: why 1.0 m wingspan, how the 1200 × 600 × 50 mm XPS board limited the wing and fuselage, and how the motor and battery weight influenced the layout.]
-
-- **Wingspan:** 1.0 m
-- **Length:** [length] m
-- **Height:** [height] cm
-- **Wing chord:** [chord]
-- **Weight (ready to fly):** about 1.7 kg <!-- TODO: your results section says ~2 kg, pick one -->
-- **Wing loading / CG:** [add if you have it]
-
-The dimensions of the design were determined by several factors. The most important was the motor and propeller size, which was used as a basis for the wingspan. My research dictated that propeller length was 15 to 30% the length of the wingspan, so with that starting point, I mocked up sizes and determined the most fitting to be 1 meter, with a chord of [chord]. 
-From there, I found fuselage to sit at 0.75:1 compared to wingspan, based on Cessna 172 dimensions. Tail and rudder followed similar processes.
-Overall, I decided that general shape was more important then following exact dimensions for this prototype, so many parts ended up having slightly different dimentions compared to the design to allow for the correct shapes and curves. The biggest example of this was in the tail section, seen below.
-
+The motor and propeller set the wingspan. My research suggested a propeller 15 to 30% of the wingspan, so I mocked up sizes and settled on about 1.2 m for an 8-inch prop. I based the fuselage on the Cessna 172's ratio to wingspan (about 0.75) and sized the tail the same way. I decided the overall shape mattered more than exact dimensions on a prototype, so some parts changed to get the right curves. The tail shows this best.
 
 <a href="RC_Plane_V1/tail_section.jpg"><img src="RC_Plane_V1/tail_section.jpg" width="400" alt="Tail shape"></a>
 
+- **Wings:** two 60 cm halves with a small gap, 18 cm chord, about 3° dihedral
+- **Fuselage:** 80 cm long, tapering from the midpoint
+- **Tailplane:** 42 × 12 cm at the centre, tapering outwards
+- **Rudder:** triangle, 14 cm base × 22 cm high
+- **Elevator:** one piece, 40 × 5 cm
+- **Ailerons:** 25 × 5 cm, starting 5 cm in from each wingtip
+- **Weight:** 760 g including the 130 g battery. Wing area is about 21.6 dm², so wing loading was roughly 35 g/dm², very light.
+
 ---
 
-## Wing profile and shape
+## The wing
 
-<!-- Pattern for each component section: what it needed to do, how I designed it, how I built it, what went wrong or what I'd change. -->
+I wanted high lift, strength and stability. I came across the KFm wing family on [Flite Test](https://www.flitetest.com/articles/kfm-wings-a-basic-explanation) and started with the KFm-3, a high-lift profile. I liked its thin trailing edge, which could double as the control surfaces.
 
-**What it needed to do:**
-To design the wings, I also needed to determine the profile and shape I wanted. I required high lift and strength, as well as stability in flight. 
+<a href="RC_Plane_V1/kfm-family.jpg"><img src="RC_Plane_V1/kfm-family.jpg" width="400" alt="KFm wing profiles"></a>
 
+**Problem: the profile didn't survive the build.** My 3D-printed PLA template melted and caught the hot wire, ruining both the foam and the template. A sanded wooden template worked, but the thin rear ledges broke off easily, and I worried the wing would be weak there. I switched to a conventional semi-symmetric profile.
 
-**Design:** [Explain your wing profile choice and why. Mention the aluminium spar running through the centre and why you bent it in the middle.]
-During my research, I came across some novel model sized wing profiles named the Kfm family, found [here](https://www.flitetest.com/articles/kfm-wings-a-basic-explanation), that had very interesting properties. Among them, I chose to start with the Kfm-3, a high lift, strong but complicated wing profile.
+**Building it.** I cut the 1200 × 600 × 50 mm XPS board into sections with the hot wire cutter, using levels as guides. My cutter could only cut as wide as its frame, so I cut each wing in sections and glued them with glue and toothpicks for support. The joins left slight deviations, which I sanded smooth. An aluminium spar runs through each wing, bent in the middle to give the dihedral.
 
-<a href="RC_Plane_V1/kfm-family.jpg"><img src="RC_Plane_V1/kfm-family.jpg" width="400" alt="kfm-family wing profiles"></a>
+<details>
+<summary>How I made the hot wire cutter</summary>
 
-Although more complex than a standard wing profile, I indented to take advantage of the thin trailing edge as the control surfaces, and was drawn to the novel and interesting design.
-
-### Making the hot wire cutter
-
-I needed a way to cut and shape the foam, so I decided to made a hot wire foam cutter as purchasing one would add to the expenses, and there were none available in my area. I researched the general designs, then built it using parts I already had and nichrome wire I bought (\$15, which I hadn't planned for). 
+Buying a cutter would have added to the cost, and none were available locally, so I built one from parts I already had plus nichrome wire (\$15, which I hadn't planned for). It runs from the DC output of my SkyRC LiPo charger. I set the voltage just high enough to heat the wire, to keep risk low.
 
 <a href="RC_Plane_V1/build_1.jpg"><img src="RC_Plane_V1/build_1.jpg" width="500" alt="Hot wire cutter"></a>
 
-The tool used my SkyRC LiPo chargers DC output as its power source, heating the nichrome wire as a resistive element hot enough to cut the form. DC voltage was set just high enough to heat the wire, so as to lower any risks. 
+The cutter was weak on tension, so I made cuts slowly to avoid stretching the wire and bending the cut, and it was hard to keep straight over long distances. A better-tensioned cutter is the first thing I'd improve.
 
-### Cutting and shaping the wing
-
-I started with a rectangular 1200 × 600 × 50 mm XPS foam board and cut smaller sections off using the hot wire cutter and levels as guides. This was done as the hot wire cutter suffered from a lack of tension, meaning cuts had to be taken slowly as to avoid overstretching the nichrome and deforming the cut, and because keeping the cutter straight for long distances was not feasible. The main cuts were the two wing halves, tail and rear wing sections and main body.
-
-To cut the wing, I designed a wing cross-section using the Kfm-3 profile, scaling the size according to my desired wing chord and including a circular cut for spar insertion. <add figure>.
-However, due to only having access to PLA printer material, the template cross section would melt and catch the wire while cutting the wing, rendering the foam and template unusable. As a replacement, I cut and sanded a wooden template using the template as a guide, but found the think rear ledges broke off very easily. 
-Due to these issues and my worries the wing would lack strength at these ledges, I replaces the Kfm profile with a more typical wing profile.
-
-Another issue i encountered was i could only cut sections as wide as my hot wire cutter. This meant i had to cut the wing in sections, and later glue the peices together using a mix of glue and toothpicks for support. This resulted in slight deviations along the wing that required postprocessing by sanding.
-
-
-
-**What I'd change:**
-- hot wire cutter quality
-
-
----
-
-## Motor mounting
-
-**What it needed to do:** [e.g. hold the motor securely, point the thrust in the right direction, survive hard landings]
-
-**Design:** The motor kit included a mount. [Explain where it sits on the fuselage and why.]
-
-**Build:** [How you fixed the mount to the foam. Glue, screws, reinforcement? Include any thrust angle.]
-
-<a href="RC_Plane_V1/motor_mount.jpg"><img src="RC_Plane_V1/motor_mount.jpg" width="600" alt="Motor mount"></a>
-
-**Specs:** 40 A ESC, [motor model, kV, size], [propeller size]
-
-**What went wrong or what I'd change:** [add here, or delete]
+</details>
 
 ---
 
 ## Control surfaces and servos
 
-**What it needed to do:** [e.g. give a novice pilot enough control without being twitchy]
+The plane has four 9 g micro servos: one per aileron, one for the rudder, and one for the single-piece elevator. I sized the surfaces from reference designs. [Add a line on how you hinged them.]
 
-**Design:** [Explain how you sized the ailerons, elevator and rudder. Note how many surfaces the plane has and where each of the four 9 g micro servos sits.]
+**Problem: the linkages bent.** The wires connecting the servos to the surfaces were strong in tension but too thin to resist compression. Winding a second layer of wire around the first made them stiffer and gave better control. They were still weak, though, and combined with surfaces that were too small, this was the biggest reason for the plane's poor agility.
 
-**Build:** [How you cut and hinged the surfaces and mounted the servos.]
-
-**Linkages and the problem with them.** The wires connecting the servos to the control surfaces were strong in tension but too thin to resist compression, so they bent. Winding a second layer of wire around the first made them stronger, and the control surfaces were more controllable afterwards. They were still weak, though, and together with surfaces that were too small, this was a big reason for the plane's low agility (see Testing and results).
-
-<a href="RC_Plane_V1/control_surfaces.jpg"><img src="RC_Plane_V1/control_surfaces.jpg" width="600" alt="Control surfaces and servos"></a>
-
-**What I'd change:** stronger, larger control surfaces. [Add anything more specific.]
+<a href="RC_Plane_V1/control_surfaces.jpg"><img src="RC_Plane_V1/control_surfaces.jpg" width="500" alt="Control surfaces and servos"></a>
 
 ---
 
-## Main wing mount
+## Motor mount and electronics
 
-**What it needed to do:** hold the wing firmly in flight but let it come off in a crash and let me adjust it. [Edit to match your reasoning.]
+The motor kit's mount attaches to a wooden plate that slots into the front of the fuselage. Toothpicks slid between the wood and the foam act as friction holds, so the mount stays secure but can be removed.
 
-**First attempt:** I held the wing to the body with hot glue on the surface of the foam. The join was weak and broke on hard landings.
+<a href="RC_Plane_V1/motor_mount.jpg"><img src="RC_Plane_V1/motor_mount.jpg" width="500" alt="Motor mount"></a>
 
-**The fix:** I switched to heavy-duty duct tape instead of gluing directly. This gave me a strong join that was also removable and adjustable.
-
-<a href="RC_Plane_V1/wing_mount.jpg"><img src="RC_Plane_V1/wing_mount.jpg" width="600" alt="Wing mount"></a>
-
----
-
-## Electronics and radio
-
-Soldering and connecting all the electrical components took about 5 hours, followed by testing the connections and servo power. [Add a photo of the wiring layout and where each component sits in the fuselage.]
-
-The radio side took about 2 hours. Setting up the transmitter was mostly plug and play. Setting up the receiver took more research, because assigning channels and connecting everything was difficult. [Add what you found out, so the next builder doesn't have to.]
-
-- **Radio:** FlySky FS-i6 transmitter with a FlySky receiver
-- **Battery:** Ovonic 3S 2200 mAh 35C 11.1 V LiPo
-- **Servos:** 4 × 9 g micro servos
+- **Motor:** 1400 kV, 10-turn, with an 8045 propeller
 - **ESC:** 40 A
+- **Battery:** Ovonic 3S 2200 mAh 35C, 11.1 V
+- **Radio:** FlySky FS-i6 with a FlySky receiver
 
-<a href="RC_Plane_V1/electronics.jpg"><img src="RC_Plane_V1/electronics.jpg" width="600" alt="Electronics wiring"></a>
+Soldering and testing the electronics took about 5 hours. Transmitter setup was mostly plug and play, but the receiver took more research because assigning channels and connecting everything was difficult. [Add the fix, so the next builder doesn't have to find it.]
 
 ---
 
-## Final touches
+## Wing mount and final touches
 
-[Describe the finishing stage: landing gear, covering, tape or paint, decals, and final checks such as the balance point (CG) and control direction checks.]
+**Problem: the wing joint broke on hard landings.** I first held the wing on with hot glue on the foam surface, which was weak. Heavy-duty duct tape gave a strong join that was also removable and adjustable.
 
-**Landing gear.** [Explain the design and what it was made from.] It took a lot of abuse, and I often had to reshape it after hard landings.
+The wing sits on the balance point, about 30% of the way along the fuselage. I shuffled the battery around to test different orientations, and mostly kept it central or slightly ahead of the wing. Tape covered the holes and cuts, with the wiring running through the body. The landing gear is custom foam and wire, and I often reshaped it after hard landings.
 
-<a href="RC_Plane_V1/landing_gear.jpg"><img src="RC_Plane_V1/landing_gear.jpg" width="600" alt="Landing gear"></a>
+<a href="RC_Plane_V1/landing_gear.jpg"><img src="RC_Plane_V1/landing_gear.jpg" width="500" alt="Landing gear"></a>
 
 ---
 
 ## Budget
 
-After settling the main design choices, I created a rough budget from what I found online. I planned for \$150 and spent about \$225.
+I built a rough budget from online prices, aiming for \$150, and spent about \$225.
 
-- **Frame and body:** planned \$30, spent about \$40. Foam board (\$29.85) and aluminium rods (\$10).
-- **Motor, ESC and battery:** planned \$70, spent about \$105. The motor and ESC combo cost \$60 and was cheap, but deciding to buy new batteries (\$44.97) pushed me over budget.
-- **Radio gear and servos:** planned \$50, spent \$65. I found a great deal on the radio and receiver on Facebook Marketplace (\$50), but I needed to buy extra servos (\$15) because I didn't have enough on hand.
-- **Tools and consumables:** planned \$0, spent \$15. I had no heat-resistant wire, so I bought nichrome wire for the hot wire cutter.
-- **Spares and repairs:** planned \$0, spent \$0. I made repairs with strong tape and glue I already owned.
+- **Frame and body:** planned \$30, spent about \$40 (foam board and aluminium rods)
+- **Motor, ESC and battery:** planned \$70, spent about \$105. The motor and ESC combo was cheap (\$60), but buying new batteries (\$45) pushed me over budget.
+- **Radio and servos:** planned \$50, spent \$65. A good deal on the radio and receiver on Facebook Marketplace (\$50), plus extra servos (\$15).
+- **Tools:** planned \$0, spent \$15 on nichrome wire for the hot wire cutter
+- **Repairs:** \$0, using tape and glue I already owned
 
-<!-- TODO: your line items add up to $224.82, but your earlier draft total said $224.92. Check which is right. -->
-
-I went about \$75 over budget. I was happy with the result, though, since I bought everything at good prices and came away with stronger budgeting and research skills.
-
-**Where I saved money:** a 3D-printed wing template, a homemade hot wire cutter, and a second-hand radio from Facebook Marketplace.
+I finished about \$75 over. I saved money by building the hot wire cutter myself, buying a second-hand radio, and reusing materials for repairs. I was happy with the result, and the project improved my budgeting and research skills.
 
 ---
 
-## Testing and results
+## Results
 
-**Test conditions:** sunny to overcast, low wind with light gusts.
+The plane flew about ten short flights in sunny to overcast conditions with light wind.
 
-<!-- Keep the effects here and the causes in the build sections above. A short cross-reference is enough. -->
+- **Flying:** It took off consistently from grass and flew in light breezes. It had plenty of power, and I never needed full throttle. It could turn, follow a circuit and recover from a dive, but I couldn't make it follow a path of my choosing.
+- **Wind:** At about 35 g/dm², the very light airframe was pushed around and carried downwind, and it couldn't turn against the wind. Weak control surfaces made this worse.
+- **Durability:** It handled repeated hard landings and nose dives with only light repairs. A friend flew the 11th flight and crashed it heavily, all in good fun.
 
-**Stability.** The plane got into controlled flight without crashing. As a first-time flyer with nothing to compare it to, it is hard to judge how it stacks up against a strong plane.
+For a first attempt by a novice pilot, it did what I wanted. It never flew for long or gained much altitude, and controlling it well was beyond my ability at the time. It also had no flight controller, which would have helped with stability.
 
-**Power.** It had enough power to take off from a grassy field and fly in light breezes. Its power-to-weight ratio was high, and it could support its own weight on thrust alone. I never needed full power during testing.
-
-**Agility.** It could turn, follow a circuit and recover from a dive, but I couldn't make it follow a path of my choosing. In any amount of wind, the light airframe was pushed around and carried downwind. It couldn't turn against the wind or fly consistently straight, mainly because the control surfaces were too small and too weak (see Control surfaces and servos).
-
-**Weight.** The plane weighed about 2 kg. <!-- TODO: reconcile with 1.7 kg above --> Its power and lift for that weight were very high, and it was large, so it was too light to cope with wind.
-
-**Reliability.** It survived many hard landings and crashes. Being so light, the foam structure handled most impacts, even several nose dives into the ground. It needed some light repairs, and I often had to reshape the landing gear, but it survived.
-
-**Overall.** For a first attempt by a novice pilot, the plane did well. It never took a long flight or gained much altitude, but it took off consistently and flew short distances. The results say as much about me as a pilot as about the plane, since controlling it well was beyond my ability at the time. The design also had no flight controller, which would have helped with stability and control.
-
-[Add your test video here, plus any data logs or screenshots.]
+[Add your flight video here.]
 
 ---
 
 ## What I'd do differently
 
-I'd change four things in a second build: make the plane heavier so it copes better with wind, add a flight controller, build stronger control surfaces, and go for a smaller plane overall.
-
-**What went well:** the power, and the durability.
+- Make it heavier, so it copes better with wind
+- Add a flight controller
+- Build larger, stronger control surfaces
+- Build a smaller plane, and use a better-tensioned hot wire cutter
 
 **Biggest lessons:** testing is king, experience is a great teacher, and it's worth building prototypes that last.
 
 ---
 
-## What this project showed
-
-- **Technical:** CAD and 3D printing for the wing template, hot wire cutting, sanding and shaping, metalworking, soldering and systems integration
-- **Engineering thinking:** weighing trade-offs between options, testing, and troubleshooting failures
-- **Project management:** researching, budgeting and sourcing parts
-- **Personal:** learning on my own and sticking with a project through repeated crashes and repairs
-
----
-
 ## Gallery
 
-<a href="RC_Plane_V1/gallery_1.jpg"><img src="RC_Plane_V1/gallery_1.jpg" width="600" alt="Add a caption"></a>
-<a href="RC_Plane_V1/gallery_2.jpg"><img src="RC_Plane_V1/gallery_2.jpg" width="600" alt="Add a caption"></a>
-<a href="RC_Plane_V1/gallery_3.jpg"><img src="RC_Plane_V1/gallery_3.jpg" width="600" alt="Add a caption"></a>
+<a href="RC_Plane_V1/gallery_1.jpg"><img src="RC_Plane_V1/gallery_1.jpg" width="500" alt="Add a caption"></a>
+<a href="RC_Plane_V1/gallery_2.jpg"><img src="RC_Plane_V1/gallery_2.jpg" width="500" alt="Add a caption"></a>
 
-[Add video links here: maiden flight, build highlights, crashes.]
+[Add video links here: maiden flight, build highlights, the crash.]
