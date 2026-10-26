@@ -17,7 +17,7 @@ A 1.2 m wingspan electric foam plane, designed and built from scratch for a firs
 
 **Skills shown:** CAD, hot wire cutting, sanding and sculpting, soldering, systems integration
 
-**[Read the full write-up →](RC_Plane.md)**
+**[Read the full write-up →](foam_place_v1/rc-foam-plane.md)**
 
 ---
 
