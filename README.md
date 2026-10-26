@@ -10,7 +10,7 @@ Hi, I'm Luca Plottier. I design and build radio controlled (RC) vehicles in my s
 ### 1. RC Foam Plane
 
 <p align="center">
-  <a href="RC_Plane.md"><img src="foam_place_v1/RC_Plane_V1/hero.jpg" width="500" alt="RC foam plane"></a>
+  <a href="foam_place_v1/RC_Plane.md"><img src="foam_place_v1/RC_Plane_V1/hero.jpg" width="500" alt="RC foam plane"></a>
 </p>
 
 A 1.2 m wingspan electric foam plane, designed and built from scratch for a first-time pilot. It came in at about \$225 against a \$150 target, flew about ten short flights, and survived repeated hard landings and nose dives.
