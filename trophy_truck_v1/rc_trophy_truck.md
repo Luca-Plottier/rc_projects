@@ -1,7 +1,7 @@
 # 3D Printed RC Trophy Truck
 
 *A 1:10 scale, trophy-truck-inspired RC car with a 3D printed body.*
-[cost = 10]
+
 This write-up covers the design and build of my 1:10 scale RC truck, which has a 3D printed body and premade electronic components. My goals were to make a functional, durable and stylised truck, to find out which parts could be 3D printed, and to practise iterative design and CAD in preparation for future 3D printed projects. There was no fixed budget, since I ordered parts as I needed them and spent money on unplanned R&D. The total was around \$[cost], including duplicates and unused parts. The project taught me some important lessons about design, building and RC control systems.
 
 <p align="center">
