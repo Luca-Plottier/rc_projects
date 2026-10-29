@@ -24,7 +24,7 @@ A 1.2 m wingspan electric foam plane, designed and built from scratch for a firs
 ### 2. RC Car
 
 <p align="center">
-  <a href="RC_Car.md"><img src="RC_Car_V1/hero.jpg" width="500" alt="RC car"></a>
+  <a href="RC_Car.md"><img src="RC_Car_V1/action1.jpg" width="500" alt="RC car"></a>
 </p>
 
 
