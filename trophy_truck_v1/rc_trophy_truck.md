@@ -5,7 +5,7 @@
 [2 to 3 sentences: what you built, your target (budget, performance, durability), what it ended up costing and doing, and the main thing it taught you.]
 
 <p align="center">
-  <a href="RC_Car_V1/hero.jpg"><img src="RC_Car_V1/hero.jpg" width="500" alt="Finished car"></a><br>
+  <a href="RC_Car_V1/hero.jpg"><img src="RC_Car_V1/front_corner_posed.jpg" width="500" alt="Finished car"></a><br>
   <em>[Caption: the finished car.]</em>
 </p>
 
