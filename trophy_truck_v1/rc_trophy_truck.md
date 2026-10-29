@@ -77,6 +77,7 @@ The front needed to house the two independent spring and shock units, the shock 
 ## Stage 2: Body and rear
 
 [What the rear needed to do, how you designed the 4-link rear suspension and the main body, and what went wrong.]
+As the body was required to hold the drive motor, steering servo and gearing system
 
 <p align="center">
   <a href="RC_Car_V1/rear_close.jpg"><img src="RC_Car_V1/rear_close.jpg" width="500" alt="Rear axle and 4-link suspension"></a><br>
