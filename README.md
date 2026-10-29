@@ -31,7 +31,7 @@ A 1.2 m wingspan electric foam plane, designed and built from scratch for a firs
 
 **Skills shown:**
 
-**[Read the full write-up →](trophy_truck_v1/rc_trophy_truck.md)**
+**[Read the full write-up →](trophy_truck_v1/RC_Car_V1/rc_trophy_truck.md)**
 
 ---
 
