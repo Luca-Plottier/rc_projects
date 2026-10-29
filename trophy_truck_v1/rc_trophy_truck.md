@@ -1,97 +1,85 @@
 # 3D Printed RC Trophy Truck
 
-A 3D printed trophy truck inspired 1:10th scale RC Car
+*A 1:10 scale, trophy-truck-inspired RC car with a 3D printed body.*
 
-[2 to 3 sentences: what you built, your target (budget, performance, durability), what it ended up costing and doing, and the main thing it taught you.]
-This report goes over the design and build process of my 1:10 scale RC truck, created with 3D printed body and premade electrical components. This project had the goals of making a functional, durable and stylized RC truck to determine a baseline for what parts could be 3D printed, practice iterative design and CAD skills, and prepare me for future 3D printed projects. It had no budget, as parts were ordered as needed and unplanned for RND, costing around ___ for all parts, including duplicates and unused parts, and taught me some very important lessons in both design, building and RC control systems. 
+This write-up covers the design and build of my 1:10 scale RC truck, which has a 3D printed body and premade electronic components. My goals were to make a functional, durable and stylised truck, to find out which parts could be 3D printed, and to practise iterative design and CAD in preparation for future 3D printed projects. There was no fixed budget, since I ordered parts as I needed them and spent money on unplanned R&D. The total was around \$[cost], including duplicates and unused parts. The project taught me some important lessons about design, building and RC control systems.
 
 <p align="center">
-  <a href="RC_Car_V1/hero.jpg"><img src="RC_Car_V1/front_corner_posed.jpg" width="500" alt="Finished car"></a><br>
-  <em>The finished car.]</em>
+  <a href="RC_Car_V1/front_corner_posed.jpg"><img src="RC_Car_V1/front_corner_posed.jpg" width="500" alt="The finished truck"></a><br>
+  <em>The finished truck.</em>
 </p>
-
-<!-- To add an uploaded video: drag the MP4 into the GitHub editor, then leave a blank line after the URL, and put the caption in a separate paragraph, like this:
-
-https://github.com/user-attachments/assets/YOUR-ID
-
-<p align="center"><em>Caption.</em></p>
--->
 
 **At a glance**
 
 - **Type:** 1:10 fully custom electric trophy truck
-- **Timeline:** 6 Months, roughly 100 hours of work
-- **Budget:** N/A
-- **Result:** Gravel, dirt and jump capable Truck 
+- **Timeline:** 6 months, roughly 100 hours of work
+- **Budget:** No fixed budget, about \$[cost] in total including duplicates and unused parts
+- **Result:** A truck capable of gravel, dirt and jumps
 - **Skills:** CAD, 3D printing, soldering, system integration, iterative design
 
 ---
 
 ## Why I built it
 
-[What you set out to do and why. Mention what you built before, such as the plane, and what was different this time.] The brief was: [your goals and constraints, in one or two sentences].
-After designing and building my foam RC plane (<-link), I purchased a 3D printer. Eager to start a project with it, I decided the design challenge of a custom RC car was a great starting point, as I had the most experience with this type of RC vehicle. This time, I wanted a jump capable truck, as I found inspiration in trophy truck 4-link rear suspension and double wishbone front suspension.
+After designing and building my [foam RC plane](RC_Plane.md), I bought a 3D printer. I was eager to start a project with it, and a custom RC car was a natural choice, since cars are the type of RC vehicle I have the most experience with. This time I wanted a truck that could jump, and I took inspiration from trophy truck suspension: a 4-link rear and double wishbone front.
 
 Early decisions that shaped the design:
 
-- **Suspension:** This project was designed around long travel trophy truck suspension, so drivetrain, power system, steering, body and scale were all determined based on this
-- **Scale:** I opted for a 1:10 scale as it fit the middle ground of large enough to create strong 3D printed parts and for suspension to be required, and small enough that motor and other purchased parts would not be too expensive. I also had a 1:10 RC Short course truck to use as inspiration.
-- **Motor:** Of the options of nitro (liquid fuel), brushed electric and brushless electric, i opted for brushless electric, to ensure enough power and durability, as well as simplicity.
+- **Suspension:** The project was built around long-travel trophy truck suspension, so the drivetrain, power system, steering, body and scale were all decided from there.
+- **Scale:** I chose 1:10 as the middle ground. It's large enough for strong 3D printed parts and for suspension to matter, and small enough that the motor and other bought parts wouldn't be too expensive. I also owned a 1:10 short course truck to use as a reference.
+- **Motor:** I considered nitro (liquid fuel), brushed electric and brushless electric. I chose brushless electric for enough power, durability and simplicity.
 
 ---
 
 ## Design and dimensions
 
-[What inspired the design, and what you needed it to do.]
-Design was directly inspired through Baja trophy trucks, where solid 4-link rear axels and independent front suspension allow great stability and travel. The custom design that i was creating was required to house a drive motor, steering servo, gearing and driveshaft, rear axel, front and rear wheels, and suspension.  
+The design was inspired by Baja trophy trucks, where a solid 4-link rear axle and independent front suspension give great stability and travel. My custom design had to house a drive motor, steering servo, gearing and driveshaft, rear axle, front and rear wheels, and the suspension.
 
 <p align="center">
-  <a href="trophy_truck_v1/RC_Car_V1/Example_Truck.jpg"><img src="trophy_truck_v1/RC_Car_V1/Example_Truck.jpg" width="600" alt="Design Inspiration"></a><br>
-  <em>Design inspiration: Baja trophy truck</em>
+  <a href="RC_Car_V1/Example_Truck.jpg"><img src="RC_Car_V1/Example_Truck.jpg" width="600" alt="Baja trophy truck"></a><br>
+  <em>Design inspiration: a Baja trophy truck.</em>
 </p>
 
-[How you chose the main dimensions and layout, and what trade-offs you made.]
-Based on standard trophy truck dimensions, I calculated the scaled body length and width, as well as rough body and shell shape and dimentions. The design process followed a front to back approach, where the front would be designed to specification, and the body and rear would then follow according and dependant on the result. This was due to the front being the most complex section, and requiring the most specificity. 
+I calculated the scaled body length and width from standard trophy truck dimensions, along with a rough body and shell shape. I designed from the front to the back. The front was the most complex section and needed the most precision, so the body and rear followed from it.
 
-- **Scale / type:** [1:10]
+<p align="center">
+  <a href="RC_Car_V1/design_sketches_scale.jpg"><img src="RC_Car_V1/design_sketches_scale.jpg" width="600" alt="Design sketches"></a><br>
+  <em>Sketches exploring the shape of the truck.</em>
+</p>
+
+- **Scale / type:** 1:10
 - **Wheelbase / track width:** [ ]
-- **Drivetrain:** [Although initially 4wd, 2wd was adopted for greater simplicity and durability]
-- **Suspension:** [Double independent wishbone suspension with 4-link long travel solid axel rear suspension]
+- **Drivetrain:** Rear-wheel drive. It started as 4WD, but 2WD was simpler and more durable.
+- **Suspension:** Independent double wishbone at the front, long-travel solid axle with 4-link at the rear
 - **Tyres:** [ ]
 - **Weight:** [ ] g including battery
 
 ---
-<p align="center">
-  <a href="trophy_truck_v1/RC_Car_V1/design_sketches_scale.jpg"><img src="trophy_truck_v1/RC_Car_V1/design_sketches_scale.jpg" width="600" alt="Design Sketches"></a><br>
-  <em>Design sketching for shape</em>
-</p>
-
 
 ## Stage 1: The front
 
-[What it needed to do, how you designed it, and how you built it.]
-The front needed to house the two independent spring and shock components, shock tower, wheel hub and joints as well as steering arms and links. This meant the front had very many moving parts, all of which needed to be able to move to their extremes without interfering with each other. This section also needed to be strong, as it would face the brunt of the shock, and face any collisions.
+The front needed to house the two independent spring and shock units, the shock tower, wheel hubs and joints, and the steering arms and links. That meant it had a lot of moving parts, all of which had to reach their extremes without interfering with each other. It also had to be strong, since it takes the brunt of impacts and collisions.
 
 <p align="center">
-  <a href="trophy_truck_v1/RC_Car_V1/front.jpg"><img src="trophy_truck_v1/RC_Car_V1/front.jpg" width="500" alt="Front Chassis and suspension"></a><br>
-  <em>Face on front section of the truck</em>
+  <a href="RC_Car_V1/front.jpg"><img src="RC_Car_V1/front.jpg" width="500" alt="Front chassis and suspension"></a><br>
+  <em>The front section of the truck, face on.</em>
 </p>
 
-**Problem: The components were difficult to design to meet the requirements and maintain the strength desired.** Due to the small scale, and the complexity of all the moving parts, the first system simplifies was the drivetrain, where i went from designing for 4wd to rear wheel drive. This was as it greatly simplified the complexity of the wheel hubs, and because i encountered other gearing issues during by drivetrain planning at the same time.
+**Problem: the parts were hard to design to spec while staying strong.** At this small scale, with so many moving parts, the first system I simplified was the drivetrain, changing from 4WD to rear-wheel drive. This greatly simplified the wheel hubs, and I had also run into gearing issues while planning the drivetrain.
 
 <p align="center">
-  <a href="trophy_truck_v1/RC_Car_V1/all2.jpg"><img src="trophy_truck_v1/RC_Car_V1/all2.jpg" width="500" alt="Front component iteration"></a><br>
-  <em>Several iterations of (mostly) front end components laid out next to each other, showing initial to final components, with pure prototyped components in grey (PLA - less durable and cheaper) and final iterations in white (PETG - more durable and expensive)</em>
+  <a href="RC_Car_V1/all2.jpg"><img src="RC_Car_V1/all2.jpg" width="500" alt="Front component iterations"></a><br>
+  <em>Several iterations of mostly front-end parts laid out together, from first prototypes (grey PLA, cheaper but less durable) to final versions (white PETG, more durable but more expensive).</em>
 </p>
 
 ---
 
 ## Stage 2: Body and rear
 
-[Design reasoning and build, with any problem and fix.]
+[What the rear needed to do, how you designed the 4-link rear suspension and the main body, and what went wrong.]
 
 <p align="center">
-  <a href="RC_Car_V1/suspension.jpg"><img src="RC_Car_V1/suspension.jpg" width="500" alt="Suspension and drivetrain"></a><br>
+  <a href="RC_Car_V1/rear_close.jpg"><img src="RC_Car_V1/rear_close.jpg" width="500" alt="Rear axle and 4-link suspension"></a><br>
   <em>[Caption.]</em>
 </p>
 
@@ -99,7 +87,7 @@ The front needed to house the two independent spring and shock components, shock
 
 ## Motor, electronics and radio
 
-[How you chose and installed the electronics, and how long setup took. Include anything you found hard that would help the next builder.]
+[How you chose and installed the electronics, how long setup took, and anything you found hard that would help the next builder.]
 
 - **Motor:** [model, kV or turns]
 - **ESC:** [amp rating]
@@ -107,30 +95,17 @@ The front needed to house the two independent spring and shock components, shock
 - **Radio:** [transmitter and receiver]
 - **Servo:** [type]
 
-<p align="center">
-  <a href="RC_Car_V1/electronics.jpg"><img src="RC_Car_V1/electronics.jpg" width="500" alt="Electronics"></a><br>
-  <em>[Caption.]</em>
-</p>
-
 ---
 
 ## Final touches
 
-[Body, paint, decals, set-up and tuning, and final checks.]
+[Body finishing, set-up and tuning, and final checks.]
 
 ---
 
-## Budget
+## Cost
 
-[One sentence on how you built the budget, your target, and your actual spend.]
-
-- **[Category 1, e.g. Chassis and body]:** planned \$[ ], spent \$[ ]. [Note.]
-- **[Category 2, e.g. Motor, ESC and battery]:** planned \$[ ], spent \$[ ]. [Note.]
-- **[Category 3, e.g. Radio and servos]:** planned \$[ ], spent \$[ ]. [Note.]
-- **[Category 4, e.g. Tools and consumables]:** planned \$[ ], spent \$[ ]. [Note.]
-- **[Category 5, e.g. Repairs]:** \$[ ]
-
-[Over or under by how much, where you saved money, and what you learned.]
+[One or two sentences: you had no fixed budget, you ordered parts as you went, the total was \$[cost], and how much of that went on duplicates, unused parts and reprints.]
 
 ---
 
@@ -138,44 +113,62 @@ The front needed to house the two independent spring and shock components, shock
 
 [Test conditions: location, surface, weather, battery used.]
 
-- **Performance:** [top speed, run time, acceleration, handling, with numbers if you have them]
+- **Performance:** [top speed, run time, acceleration, with numbers if you have them]
 - **Handling:** [how it drove, and what limited it]
 - **Durability:** [crashes, rollovers, repairs, how many runs]
 
 [2 to 3 sentences on how the results compare with your goals, and what they say about the design.]
 
-[▶ Watch the run video on YouTube](https://www.youtube.com/watch?v=VIDEO_ID)
-
-<p align="center"><em>[Caption.]</em></p>
+[Add your driving video here: drag `driving_video.mp4` into the GitHub editor, leave a blank line after the link, and put the caption in a separate paragraph.]
 
 ---
 
 ## What I'd do differently
 
-- Design or purchase stronger joints that allow for more degrees of freedom and more movement
-- Spend more time integrating the more delicate moving parts, for example the steering and driveshaft (clearance, reduced freedom of movement)
-- Designed connection points and methods that are easier to access, quicker to use and stronger
-- Design simpler with more flexibility for change later
-- Attempt to 3D print axels and drivetrain, or alternatively use base materials (metal rods) in combination with 3D printing, manufacturing and cutting over purchasing complete components
+- Design or buy stronger joints that allow more movement and more degrees of freedom
+- Spend more time integrating the delicate moving parts, such as the steering and driveshaft, so they have enough clearance and aren't restricted
+- Design connection points that are easier to access, quicker to use and stronger
+- Design more simply, with more flexibility for changes later
+- Try 3D printing the axles and drivetrain, or build them from base materials (such as metal rods) combined with 3D printing, cutting and shaping, instead of buying complete components
 
-**Biggest lessons:** [two or three short lessons]
-I think the biggest lesson I learnt from this project was that for iterative design, I need to design parts to be smaller and easier to print, connect, remove and replace as to reduce the waste in time, filament and broken components. I found one of my largest issues was that i had designed myself into a corner, creating large components that only worked in specific ways, and designing other components to work dependent on them. This limited my flexibility in part creation, and led to a large amount of effort being wasted in creating quick fixes to fundamental problems. 
-This includes:
-- Redesigning rear linkages in an attempt to improve joint flexibility and strength instead of moving to a separate joint mechanism or changing the joint points entirely
-- Redesigning the main body section to accommodate the engine mounting and bearing and driveshaft mounting, which was poorly designed to begin with, as tensioned belt systems work poorly in small, flexible, and relatively weak printed components.
-- Reprinting and attaching the front body section to the main body section due to it breaking from concentrated stresses in poorly designed joining systems.
-- Editing and reprinting body and steering components because the front wheels would rub and get stuck against the body during sharp turns, when redesigning the steering system or editing the front body to suit the wheels would solve the issue 
+**Biggest lesson:** for iterative design, parts need to be smaller and easier to print, connect, remove and replace, to cut down on wasted time, filament and broken components. One of my largest problems was that I had designed myself into a corner. I made large components that only worked in specific ways, then designed other components to depend on them. That limited my flexibility, and I spent a lot of effort on quick fixes to fundamental problems. Examples:
+
+- Redesigning the rear linkages to improve joint flexibility and strength, instead of switching to a separate joint mechanism or moving the joint points
+- Redesigning the main body section to fit the motor mount, bearing and driveshaft mount. This was poorly designed from the start, since tensioned belt systems work poorly in small, flexible and relatively weak printed parts.
+- Reprinting and reattaching the front body section after it broke from stress concentrated at poorly designed joints
+- Editing and reprinting body and steering parts because the front wheels rubbed and stuck against the body in sharp turns, when redesigning the steering or adjusting the front body to suit the wheels would have fixed it
 
 ---
 
 ## Gallery
 
 <p align="center">
-  <a href="RC_Car_V1/gallery_1.jpg"><img src="RC_Car_V1/gallery_1.jpg" width="500" alt="Gallery photo"></a><br>
-  <em>[Caption.]</em>
+  <img src="RC_Car_V1/front_corner_posed.jpg" width="48%" alt="Front corner view">
+  <img src="RC_Car_V1/front_corner_posed2.jpg" width="48%" alt="Front corner view from another angle"><br>
+  <em>Front corner views of the finished truck.</em>
 </p>
 
 <p align="center">
-  <a href="RC_Car_V1/gallery_2.jpg"><img src="RC_Car_V1/gallery_2.jpg" width="500" alt="Gallery photo"></a><br>
-  <em>[Caption.]</em>
+  <img src="RC_Car_V1/side_posed.jpg" width="48%" alt="Side view">
+  <img src="RC_Car_V1/top.jpg" width="48%" alt="Top view"><br>
+  <em>Side and top views showing the layout.</em>
+</p>
+
+<p align="center">
+  <img src="RC_Car_V1/front_action.jpg" width="48%" alt="Front suspension in action">
+  <img src="RC_Car_V1/front_action2.jpg" width="48%" alt="Front suspension in action, second angle"><br>
+  <em>The independent front suspension flexing over an obstacle.</em>
+</p>
+
+<p align="center">
+  <img src="RC_Car_V1/rear_action.jpg" width="48%" alt="Rear suspension in action">
+  <img src="RC_Car_V1/rear_action2.jpg" width="48%" alt="Rear suspension in action, second angle"><br>
+  <em>The 4-link rear suspension over the same obstacle.</em>
+</p>
+
+<p align="center">
+  <img src="RC_Car_V1/close1.jpg" width="48%" alt="Close-up of the electronics">
+  <img src="RC_Car_V1/rear2.jpg" width="48%" alt="Top-down view of the rear">
+  <br>
+  <em>A close-up of the electronics, and a top-down view of the rear axle and drivetrain.</em>
 </p>
