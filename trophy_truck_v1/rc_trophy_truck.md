@@ -6,7 +6,7 @@ This write-up covers the design and build of my 1:10 scale RC truck, which has a
 
 <p align="center">
   <a href="RC_Car_V1/front_corner_posed.jpg"><img src="RC_Car_V1/front_corner_posed.jpg" width="500" alt="The finished truck"></a><br>
-  <em>The finished truck.</em>
+  <em>The finished truck. Designed as a frame to mount body panels to.</em>
 </p>
 
 **At a glance**
