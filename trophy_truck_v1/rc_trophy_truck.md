@@ -47,7 +47,7 @@ I calculated the scaled body length and width from standard trophy truck dimensi
 <p align="center">
   <img src="RC_Car_V1/Projects-4.jpg" width="30%" alt="Design Notes page 1">
   <img src="RC_Car_V1/Projects-5.jpg" width="30%" alt="Design Notes page 2">
-    <img src="RC_Car_V1/Projects-6.jpg" width="30%" alt="Design Notes page 3">
+  <img src="RC_Car_V1/Projects-6.jpg" width="30%" alt="Design Notes page 3"><br>
   <em>Sketches exploring the shape of the truck.</em>
 </p>
 
