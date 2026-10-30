@@ -43,8 +43,11 @@ The design was inspired by Baja trophy trucks, where a solid 4-link rear axle an
 
 I calculated the scaled body length and width from standard trophy truck dimensions, along with a rough body and shell shape. That gave a truck 32 cm long and 25 cm wide, a 1.28:1 length-to-width ratio. I designed from the front to the back. The front was the most complex section and needed the most precision, so the body and rear followed from it.
 
+
 <p align="center">
-  <a href="RC_Car_V1/design_sketches_scale.jpg"><img src="RC_Car_V1/design_sketches_scale.jpg" width="600" alt="Design sketches"></a><br>
+  <img src="RC_Car_V1/Projects-4.jpg" width="30%" alt="Design Notes page 1">
+  <img src="RC_Car_V1/Projects-5.jpg" width="30%" alt="Design Notes page 2">
+    <img src="RC_Car_V1/Projects-6.jpg" width="30%" alt="Design Notes page 3">
   <em>Sketches exploring the shape of the truck.</em>
 </p>
 
