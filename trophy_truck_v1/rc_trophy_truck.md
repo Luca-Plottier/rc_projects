@@ -115,7 +115,7 @@ The rear was simple by comparison. The body, battery and ESC mounts were easy, s
 **Problem 3 (the main one): too much unsprung weight.** When I bought the rear axle and differential, I didn't consider their weight. The axle alone weighed roughly 400 to 600 g, around 20 to 30% of the truck's 2.06 kg total, before counting the wheels and tyres. That left a lot of weight on the wheel side of the suspension and very little on the body side, so the suspension was largely redundant. It did keep the battery and ESC sprung and away from the harshest bumps, but ride quality was poor overall. This is a big reason I want to 3D print or build the axle from base materials next time.
 
 <p align="center">
-  <a href="RC_Car_V1/rear_close.jpg"><img src="RC_Car_V1/rear_close.jpg" width="500" alt="Rear axle and 4-link suspension"></a><br>
+  <a href="RC_Car_V1/rear_close.jpg"><img src="RC_Car_V1/rear_close.jpg" width="600" alt="Rear axle and 4-link suspension"></a><br>
   <em>[Caption: the rear axle, differential and 4-link suspension.]</em>
 </p>
 
