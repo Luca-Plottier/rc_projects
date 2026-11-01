@@ -142,7 +142,7 @@ The rear was simple by comparison. The body, battery and ESC mounts were easy, s
 
 <p align="center">
   <a href="RC_Car_V1/rear_close.jpg"><img src="RC_Car_V1/rear_close.jpg" width="600" alt="Rear axle and 4-link suspension"></a><br>
-  <em>[Caption: the rear axle, differential and 4-link suspension.]</em>
+  <em>The rear axle, differential and 4-link suspension from the back of the truck.</em>
 </p>
 
 ---
