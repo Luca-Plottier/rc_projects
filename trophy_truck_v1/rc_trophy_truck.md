@@ -195,7 +195,7 @@ I drove the truck on pavement with large steps, on gravel and on grass.
 
 Overall, this version didn't meet my expectations, but I'm happy with it because it taught me a lot about design and iterative work. Its shortfalls came from a mix of part selection and design assumptions. The suspension was too weak for the weight, so the truck often hit the ground. The belt drive slipped under high power, which a gear system wouldn't have. Two problems remain unresolved, the belt slip and the loose steering, and both are on the redesign list for a second version. That version will use more 3D printed components and apply what I've learned.
 
-[Add your driving video here: drag `driving_video.mp4` into the GitHub editor, leave a blank line after the link, and put the caption in a separate paragraph.]
+[A compilation of testing stunts/drops](https://youtu.be/nSYjysnEKj8)
 
 ---
 
