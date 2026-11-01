@@ -65,6 +65,7 @@ My general process was to model each part in CAD, fit it into the whole assembly
   <a href="RC_Car_V1/CAD_whole.jpg"><img src="RC_Car_V1/CAD_whole.jpg" width="500" alt="The truck assembly file"></a><br>
   <em>The truck as a SolidWorks assembly. Template components are coloured by type: electronics in blue, driveshaft and suspension in green, and wheels in grey.</em>
 </p>
+
 ---
 
 ## Stage 1: The front
@@ -85,7 +86,7 @@ The front needed to house the two independent spring and shock units, the shock 
   <em>Several iterations of mostly front-end parts laid out together, from first prototypes (grey PLA, cheaper but less durable) to final versions (white PETG, more durable but more expensive).</em>
 </p>
 
-### Iterating on the front
+### Iterating on the front ###
 
 The front took the longest to complete. It needed the most iterations and the most careful design for strength and function. It's also where parts broke the most in testing, and where the most improvements are still to be made.
 
@@ -102,6 +103,7 @@ The front wheel hub connectors show how this worked in practice.
 </p>
 
 The first five iterations adjusted the scale and dimensions to prevent breakage and to make sure the hubs didn't rub on the middle part of the connector. For iteration 6, I split the connector into two separate components, because while researching I realised it didn't need to be one piece. This solved the rubbing and removed what had been a weak point.
+
 ---
 
 ## Stage 2: Body and rear
