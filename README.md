@@ -68,5 +68,4 @@ Each write-up follows a similar structure: why I built it, the design and key de
 
 ## Contact
 
-- **Email:** [LucaPlottier@gmail.com](mailto:LucaPlottier@gmail.com)
 - **LinkedIn:** [linkedin.com/in/lucaplottier](https://www.linkedin.com/in/lucaplottier/)
