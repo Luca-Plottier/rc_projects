@@ -4,18 +4,18 @@
 
 # 3D Printed RC Trophy Truck
 
-*A 1:10 scale, trophy-truck-inspired RC car with a 3D printed body.*
+*A 1:10 scale, trophy-truck-inspired RC car with a 3D printed chassis.*
 
-This write-up covers the design and build of my 1:10 scale RC truck, which has a 3D printed body and premade electronic components. My goals were to make a functional, durable and stylised truck, to find out which parts could be 3D printed, and to practise iterative design and CAD in preparation for future 3D printed projects. There was no fixed budget, since I ordered parts as I needed them and spent money on unplanned R&D. The parts I bought came to about \$228, not counting filament or parts I already owned. The project taught me some important lessons about design, building and RC control systems.
+This write-up covers the design and build of my 1:10 scale RC truck, which has a 3D printed chassis and premade electronic components. My goals were to make a functional, durable and stylised truck, to find out which parts could be 3D printed, and to practise iterative design and CAD in preparation for future 3D printed projects. There was no fixed budget, since I ordered parts as I needed them and spent money on unplanned R&D. The parts I bought came to about \$228, not counting filament or parts I already owned. The project taught me some important lessons about design, building and RC control systems.
 
 <p align="center">
   <a href="RC_Car_V1/front_corner_posed.jpg"><img src="RC_Car_V1/front_corner_posed.jpg" width="500" alt="The finished truck"></a><br>
-  <em>The finished truck. Designed as a frame to mount body panels to.</em>
+  <em>The finished truck. Designed as a frame for mounting body panels.</em>
 </p>
 
 https://github.com/user-attachments/assets/deef0a62-f383-4c7c-9a11-4fc32adc72b6
 
-<p align="center"><em>Small slo-mo Suspension showcase under own power.</em></p>
+<p align="center"><em>A short slow-motion clip of the suspension working under its own power.</em></p>
 
 **At a glance**
 
@@ -36,7 +36,7 @@ Early decisions that shaped the design:
 - **Suspension:** The project was built around long-travel trophy truck suspension, so the drivetrain, power system, steering, body and scale were all decided from there.
 - **Scale:** I chose 1:10 as the middle ground. It's large enough for strong 3D printed parts and for suspension to matter, and small enough that the motor and other bought parts wouldn't be too expensive. I also owned a 1:10 short course truck to use as a reference.
 - **Motor:** I considered nitro (liquid fuel), brushed electric and brushless electric. I chose brushless electric for enough power, durability and simplicity.
-- **Drivetrain:** I compared metal gears, 3D printed gears and a belt system. I chose a belt because I believed it was more forgiving for 3D printed parts, needing less precision and strength than a gear system (this assumption turned out to be wrong, as Stage 2 explains). I bought the rear differential, since I judged a printed one would be too weak.
+- **Drivetrain:** I compared metal gears, 3D printed gears and a belt system. I chose a belt because I believed it would give me more freedom in placing parts and need less precision and strength than gears, which suited 3D printed parts (this assumption turned out to be wrong, as Stage 2 explains). I bought the rear differential, since I judged a printed one would be too weak.
 
 ---
 
@@ -89,7 +89,7 @@ The front needed to house the two independent spring and shock units, the shock 
 
 **Problem 2: loose steering.** The steering was very loose, and it would hit the sides of the body and get caught. I strengthened the servo mount and replaced the servo arm with a stiffer one, but the problem isn't completely resolved.
 
-### Iterating on the front ###
+### Iterating on the front
 
 The front took the longest to complete. It needed the most iterations and the most careful design for strength and function. It's also where parts broke the most in testing, and where the most improvements are still to be made.
 
@@ -115,13 +115,12 @@ The body had to hold the drive motor, steering servo and gearing, and connect th
 
 ### The belt drive: my biggest wrong assumption
 
-I chose a belt drive because I believed it would give me more freedom in placing parts than gears. In reality it caused more problems than gears would have:
+I chose a belt drive because I believed it would give me more freedom in placing parts than gears, and that it would need less precision and strength. In reality it caused more problems than gears would have:
 
 - It needed high tension, which meant stronger parts, removing the benefit I'd chosen it for.
 - The belt was long enough to need a tensioner, which reduced efficiency.
 - It slipped under the motor's high torque, because I couldn't keep the tension high.
 - It moved and rubbed against the plastic, losing more efficiency and power.
-- The driveshaft hit the rear upper links.
 
 I never fully resolved the belt problems, so redesigning the drive is a priority for V2.
 
@@ -152,18 +151,13 @@ The rear was simple by comparison. The body, battery and ESC mounts were easy, s
 The electronics were the simplest part of the project. Mounting was easy because I'd designed the mounting locations in advance, and soldering the motor and ESC cables didn't take long.
 
 - **Motor:** 3650, 3100 kV, 4-pole brushless
-- **ESC:** advertised as 80 A (likely lower in reality)
+- **ESC:** advertised as 80 A
 - **Battery:** 3S LiPo, 2200 mAh, 35C
 - **Radio:** MVK transmitter and receiver, reused from my other RC car
 - **Servo:** High-torque metal gear
 
 ---
 
-## Testing and repairs
-
-During testing I replaced several broken parts, including upper link arms and front-to-body mounts. I never finished the body panels or any cosmetic finishing, since the base system had too many unresolved problems.
-
----
 
 ## Cost
 
@@ -191,7 +185,7 @@ I drove the truck on pavement with large steps, on gravel and on grass.
 
 - **Performance:** It handled gravel and jumps well, but under high power the belt slipped and loosened over time.
 - **Handling:** Moderate. The wheels often caught on the body, and the turning rate was limited by the steering link flexing, because it wasn't properly secured.
-- **Durability:** It survived several crashes into walls unscathed and needed only a few replacement parts. Hard landings were a weak point, since the suspension was too weak for its weight.
+- **Durability:**  It survived several crashes into walls unscathed and needed only a few replacement parts, including upper link arms and front-to-body mounts. Hard landings were a weak point, since the suspension was too weak for its weight and would cause the truck to bottom out hard.
 
 Overall, this version didn't meet my expectations, but I'm happy with it because it taught me a lot about design and iterative work. Its shortfalls came from a mix of part selection and design assumptions. The suspension was too weak for the weight, so the truck often hit the ground. The belt drive slipped under high power, which a gear system wouldn't have. Two problems remain unresolved, the belt slip and the loose steering, and both are on the redesign list for a second version. That version will use more 3D printed components and apply what I've learned.
 
