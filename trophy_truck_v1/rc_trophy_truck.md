@@ -81,11 +81,6 @@ The front needed to house the two independent spring and shock units, the shock 
 
 **Problem 2: loose steering.** The steering was very loose, and it would hit the sides of the body and get caught. I strengthened the servo mount and replaced the servo arm with a stiffer one, but the problem isn't completely resolved.
 
-<p align="center">
-  <a href="RC_Car_V1/all2.jpg"><img src="RC_Car_V1/all2.jpg" width="500" alt="Front component iterations"></a><br>
-  <em>Several iterations of mostly front-end parts laid out together, from first prototypes (grey PLA, cheaper but less durable) to final versions (white PETG, more durable but more expensive).</em>
-</p>
-
 ### Iterating on the front ###
 
 The front took the longest to complete. It needed the most iterations and the most careful design for strength and function. It's also where parts broke the most in testing, and where the most improvements are still to be made.
