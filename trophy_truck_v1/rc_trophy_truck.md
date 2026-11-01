@@ -59,6 +59,12 @@ I calculated the scaled body length and width from standard trophy truck dimensi
 - **Tyres:** 110 mm off-road tyres
 - **Weight:** about 2.06 kg including battery, with the rear axle alone around 400 to 600 g
 
+My general process was to model each part in CAD, fit it into the whole assembly, then print a prototype and fix any problems that appeared, such as parts colliding when the steering turned. The front end went through the most iterations, so Stage 1 walks through one example in detail.
+
+<p align="center">
+  <a href="RC_Car_V1/CAD_whole.jpg"><img src="RC_Car_V1/CAD_whole.jpg" width="500" alt="The truck assembly file"></a><br>
+  <em>The truck as a SolidWorks assembly. Template components are coloured by type: electronics in blue, driveshaft and suspension in green, and wheels in grey.</em>
+</p>
 ---
 
 ## Stage 1: The front
@@ -79,8 +85,23 @@ The front needed to house the two independent spring and shock units, the shock 
   <em>Several iterations of mostly front-end parts laid out together, from first prototypes (grey PLA, cheaper but less durable) to final versions (white PETG, more durable but more expensive).</em>
 </p>
 
+### Iterating on the front
+
 The front took the longest to complete. It needed the most iterations and the most careful design for strength and function. It's also where parts broke the most in testing, and where the most improvements are still to be made.
 
+<p align="center">
+  <a href="RC_Car_V1/all2.jpg"><img src="RC_Car_V1/all2.jpg" width="500" alt="Front component iterations"></a><br>
+  <em>Several iterations of mostly front-end parts laid out together, from first prototypes (grey PLA, cheaper but less durable) to final versions (white PETG, more durable but more expensive).</em>
+</p>
+
+The front wheel hub connectors show how this worked in practice.
+
+<p align="center">
+  <a href="RC_Car_V1/front_connector.jpg"><img src="RC_Car_V1/front_connector.jpg" width="500" alt="Iterations of hub connectors"></a><br>
+  <em>Iterations 1 to 6 (left to right) of the hub connectors that join the wheel mount to the A-arms.</em>
+</p>
+
+The first five iterations adjusted the scale and dimensions to prevent breakage and to make sure the hubs didn't rub on the middle part of the connector. For iteration 6, I split the connector into two separate components, because while researching I realised it didn't need to be one piece. This solved the rubbing and removed what had been a weak point.
 ---
 
 ## Stage 2: Body and rear
