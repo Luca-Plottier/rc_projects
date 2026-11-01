@@ -163,7 +163,7 @@ The plane flew about ten short flights in sunny to overcast conditions with ligh
 
 For a first attempt by a novice pilot, it did what I wanted. It never flew for long or gained much altitude, and controlling it well was beyond my ability at the time. It also had no flight controller, which would have helped with stability.
 
-[▶ Watch the full flights video on YouTube](https://www.youtube.com/watch?v=6i3lF9emXYw)
+[A Compilation of flight moments](https://www.youtube.com/watch?v=6i3lF9emXYw)
 
 <p align="center"><em>A longer compilation of all the flights, extending the video at the top.</em></p>
 
