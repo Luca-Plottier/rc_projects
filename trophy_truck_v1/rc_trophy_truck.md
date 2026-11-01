@@ -15,7 +15,7 @@ This write-up covers the design and build of my 1:10 scale RC truck, which has a
 
 https://github.com/user-attachments/assets/deef0a62-f383-4c7c-9a11-4fc32adc72b6
 
-<p align="center"><em>Small Suspension showcase under own power.</em></p>
+<p align="center"><em>Small slo-mo Suspension showcase under own power.</em></p>
 
 **At a glance**
 
