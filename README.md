@@ -39,7 +39,7 @@ A 1:10 scale electric trophy truck with a custom 3D printed chassis, designed ar
 **Design and CAD**
 - Modelled a full truck assembly in SolidWorks, fitting each part to the whole and fixing collisions found in prototypes
 - Scaled designs from real-world dimensions, such as trophy truck proportions and propeller-to-wingspan ratios
-- Iterated on parts through several versions, for example six revisions of a wheel hub connector
+- Iterated on parts through several versions
 
 **Fabrication**
 - 3D printing in PLA and PETG, including choosing materials for prototypes versus final parts
@@ -52,7 +52,7 @@ A 1:10 scale electric trophy truck with a custom 3D printed chassis, designed ar
 - Integrating brushless electric drivetrains in both a plane and a truck
 
 **Engineering and problem solving**
-- Tracing failures to their causes, such as a weak wing joint, bending control linkages, belt slip and excess unsprung weight
+- Tracing failures to their causes, such as a weak wing joint, bending control linkages, belt slip and poor print orientation
 - Weighing trade-offs between options, and being honest when an assumption turned out to be wrong
 - Testing in real conditions and using the results to plan the next version
 
